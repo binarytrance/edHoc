@@ -28,7 +28,7 @@
         $row = $result -> fetch_array(MYSQLI_BOTH);
         if(password_verify($pword, $row['password'])){
             $_SESSION['student_id'] = $row['student_id'];
-            header('Location: test-1.php');
+            header('Location: index.php');
         }
         else {
             $_SESSION["LogInFail"] = "Yes";

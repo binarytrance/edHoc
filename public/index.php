@@ -45,7 +45,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="logo" href="test1.html"><img src="images/temp-logo.jpg" height= "50" width =  "80"></a>
+              <a class="logo" href="index.php"><img src="images/temp-logo.jpg" height= "50" width =  "80"></a>
             </div>
             <div class="navbar-collapse collapse navbar-right">
               <ul class="nav navbar-nav">

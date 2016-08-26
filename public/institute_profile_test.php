@@ -104,7 +104,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="test-1.php">EdHoc</a>
+          <a class="navbar-brand" href="index.php">EdHoc</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
@@ -221,7 +221,7 @@
 			</fieldset>
           <br><br><hr>
           <div id="footer">
-        EdHoc Inc. &copy; 2016. All rights reserved. <a href="test-1.php">Return to homepage</a>
+        EdHoc Inc. &copy; 2016. All rights reserved. <a href="index.php">Return to homepage</a>
       </div>
       </div>
           
