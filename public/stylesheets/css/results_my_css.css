@@ -1,0 +1,11 @@
+.custom-nav {
+    background-color:;
+}
+.custom-jumbotron {
+    margin-top: 10px;
+    background-image: url(../images/reso.png);
+    background-blend-mode:overlay;
+}
+.btn {
+    background-color:deepskyblue;
+}

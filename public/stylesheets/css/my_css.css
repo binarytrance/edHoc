@@ -1,0 +1,40 @@
+.navbar {
+	background-color: transparent;
+	border: none;
+    z-index: +1;
+}
+.jumbotron {
+	height: 400px;
+    background-image: url(../../images/woman.jpg);
+    background-size: cover;
+    border: none;
+    width: 100%;
+    padding-top: 0px;
+    top:0;
+    z-index: -1; 
+    position: relative;
+}
+
+#jumb {
+	color: white;
+	font-size: 20px;
+}
+
+.jumbotron .container .row .welcome-text {
+    text-align: center;
+    text-decoration: none;
+    text-indent: inherit;
+    color:cadetblue;
+    margin: 30px 30px 30px 30px;
+    
+}
+.jumbotron .container .row .btn {
+    border-radius: 2px;
+    border: none;
+    font-size-adjust: auto;
+   
+}
+
+.navbar-wrapper .navbar .container .navbar-header .logo{
+    left:40px;
+}
