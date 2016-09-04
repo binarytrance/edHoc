@@ -18,16 +18,15 @@
 
 #jumb {
 	color: white;
-	font-size: 20px;
-}
+/*	font-size: 15px;
+*/}
 
 .jumbotron .container .row .welcome-text {
     text-align: center;
-    text-decoration: none;
-    text-indent: inherit;
-    color:cadetblue;
-    margin: 30px 30px 30px 30px;
-    
+    color:#fff;
+    margin: 60px;
+    padding: 40px;
+    font-size: 50px;
 }
 .jumbotron .container .row .btn {
     border-radius: 2px;

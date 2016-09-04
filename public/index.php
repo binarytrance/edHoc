@@ -83,7 +83,7 @@
     <div class="container">
       <div class="row">
         <div class="col-xs-12 col-sm-12 col-lg-12" >
-            <h1 class="welcome-text">Welcome to EdHoc. <br>Discover the best places to learn and collaborate with friends to make learning easier.</h1>
+            <h1 class="welcome-text">Discover the best places to learn and collaborate with friends to make learning easier.</h1>
               </div>
         </div>
         </div>
