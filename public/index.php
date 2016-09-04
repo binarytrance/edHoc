@@ -11,7 +11,9 @@
 
     <!-- Bootstrap -->
     <link href="stylesheets/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
     <link rel="stylesheet" type="text/css" href="stylesheets/css/my_css.css">
+    <!--Custom JS -->
     <script src='javascripts/js/my_script.js'></script>
       
     <!--stylesheets for owl carousel -->
@@ -26,9 +28,7 @@
     <script src="owl/owl.carousel.js"></script>
       
     <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'> 
-    <link rel="stylesheet" href="authentication/css/reset.css"> <!-- CSS reset -->
-	<link rel="stylesheet" href="authentication/css/style.css"> <!-- Gem style -->
-	<script src="authentication/js/modernizr.js"></script> <!-- Modernizr -->
+  	<script src="authentication/js/modernizr.js"></script> <!-- Modernizr -->
       
 				
    </head>
@@ -52,20 +52,20 @@
                 <!--
                 <li class="active"><a href="#">Home</a></li>
               -->
-                <li><a href="about.html">About</a></li>
-                <li><a href="Contact-Us.html">Contact</a></li>
+                <li><a href="about.html"><p class="navbar-list">About</p></a></li>
+                <li><a href="Contact-Us.html"><p class="navbar-list">Contact</p></a></li>
                 
                 <?php  
                     if(isset($_SESSION["student_id"])) {
                 ?>
-                        <li><a href="dashboard.php">Dashboard</a></li>
-                        <li><a href="logout.php">Sign Out</a></li>
+                        <li><a class="navbar-list" href="dashboard.php"><p class="navbar-list">Dashboard</p></a></li>
+                        <li><a class="navbar-list" href="logout.php"><p class="navbar-list">Sign Out</p></a></li>
                   <?php
                     }
                     else {
                   ?>
-                        <li><a class="cd-signin" href="login.php">Sign In</a></li>
-                        <li><a class="cd-signin" href="Sign_up.php" role="button">Sign Up</a></li>
+                        <li><a class="cd-signin" href="login.php"><p class="navbar-list">Sign In</p></a></li>
+                        <li><a class="cd-signin" href="Sign_up.php" role="button"><p class="navbar-list">Sign Up</p></a></li>
                   <?php  
                   }    
                   ?>  
