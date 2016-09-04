@@ -5,8 +5,9 @@
 }
 .jumbotron {
 	height: 400px;
-    background-image: url(../../images/woman.jpg);
+    background-image: url(https://s3.postimg.org/smk398rv7/pexels_photo.jpg);
     background-size: cover;
+    background-position: center;
     border: none;
     width: 100%;
     padding-top: 0px;
