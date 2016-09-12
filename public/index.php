@@ -45,7 +45,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="logo" href="index.php"><img src="images/temp-logo.jpg" height= "50" width =  "80"></a>
+              <a class="logo" href="index.php"><p><span class="logo-underline">ed</span>Hoc</p></a>
             </div>
             <div class="navbar-collapse collapse navbar-right">
               <ul class="nav navbar-nav">
@@ -79,7 +79,7 @@
         
         
     
-    <div class='jumbotron' >
+    <div class='jumbotron'>
     <div class="container">
       <div class="row">
         <div class="col-xs-12 col-sm-12 col-lg-12" >
@@ -88,21 +88,21 @@
         </div>
         </div>
     </div>
-        <hr>
-        <div class="row col-md-6 col-md-offset-2">
-            <div class="col-lg-6">
-                <div class="input-group">
-                    <form action="search_results.php" method = "post">
-                    <input type="text" name="search" class="form-control" placeholder="Search by subjects...">
-                        
-                    <span class="input-group-btn">
-                    <button class="btn btn-default" type="button submit">Go!</button>
-                    </span>
-                        </form>
-                    
-                </div><!-- /input-group -->
-            </div>
-        </div>
+    <hr>
+    <div class="row col-md-6 col-md-offset-2">
+      <div class="col-lg-6">
+        <div class="input-group">
+          <form action="search_results.php" method = "post">
+              <input type="text" name="search" class="form-control" placeholder="Search by subjects...">
+                  
+              <span class="input-group-btn">
+              <button class="btn btn-default" type="button submit">Go!</button>
+              </span>
+          </form>
+            
+        </div><!-- /input-group -->
+      </div>
+    </div>
  <br>
  <br>
         <br>

@@ -7,6 +7,7 @@
 /*    border: solid red;
 */    text-decoration: none;
     color: #fff;
+    margin-top: 15px;
     
 }
 .nav li a {
@@ -17,8 +18,21 @@
    color: blue;*/ 
        transform: scale(1.2, 1.2);
 }
-.navbar-list:visited {
+/*.navbar-list:visited {
     color: red;
+}*/
+.logo p{
+    /*border: solid 1px;*/
+    font-size: 30px;
+    margin-top: 15px;
+    text-decoration: none;
+    color: white;
+}
+.logo:hover{
+    text-decoration: none;
+}
+.logo p span.logo-underline {
+    text-decoration: underline;
 }
 .jumbotron {
 	height: 400px;
