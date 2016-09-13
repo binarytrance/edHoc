@@ -1,11 +1,12 @@
 .navbar {
+    /*border: solid black;*/
 	background-color: transparent;
     z-index: +1;
     border: none;
 }
 .navbar-list {
 /*    border: solid red;
-*/    text-decoration: none;
+*/  text-decoration: none;
     color: #fff;
     margin-top: 15px;
     
@@ -21,8 +22,13 @@
 /*.navbar-list:visited {
     color: red;
 }*/
+a {
+    text-decoration: none;
+}
 .logo p{
     /*border: solid 1px;*/
+    font-family: 'Philosopher', sans-serif;
+    font-weight: bold;
     font-size: 30px;
     margin-top: 15px;
     text-decoration: none;
@@ -31,9 +37,9 @@
 .logo:hover{
     text-decoration: none;
 }
-.logo p span.logo-underline {
+/*.logo p span.logo-underline {
     text-decoration: underline;
-}
+}*/
 .jumbotron {
 	height: 400px;
     background-image: url(https://s3.postimg.org/smk398rv7/pexels_photo.jpg);
@@ -48,6 +54,7 @@
 }
 
 .jumbotron .container .row .welcome-text {
+    /*font-family: "PT Sans";*/
     text-align: center;
     color:#fff;
     margin: 60px;

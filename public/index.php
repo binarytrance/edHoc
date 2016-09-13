@@ -2,17 +2,19 @@
     session_start("");
 ?>
 <!DOCTYPE html>
-<html lang="en" class="no-js">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>EdHoc</title>
-
+    <!-- Google Font: philosopher for logo -->
+    <link href="https://fonts.googleapis.com/css?family=Philosopher:400,700" rel="stylesheet">
     <!-- Bootstrap -->
     <link href="stylesheets/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->
     <link rel="stylesheet" type="text/css" href="stylesheets/css/my_css.css">
+    <script src="javascripts/js/jquery-2.2.2.min.js"></script>
     <!--Custom JS -->
     <script src='javascripts/js/my_script.js'></script>
       
@@ -23,7 +25,7 @@
     <link rel="stylesheet" href="owl/owl.animate.css">
    <!-- <script src="js/jquery-1.12.2.min.js"></script>
     <script src="js/jquery-migrate-1.2.1.min.js"></script> -->
-    <script src="javascripts/js/jquery-2.2.2.min.js"></script>
+    
 
     <script src="owl/owl.carousel.js"></script>
       
@@ -45,7 +47,8 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="logo" href="index.php"><p><span class="logo-underline">ed</span>Hoc</p></a>
+              <!-- <a class="logo" href="index.php"><p><span class="logo-underline">ed</span>Hoc</p></a> -->
+              <a class="logo" href="index.php"><p><span class="underline">ed</span>Hoc</p></a>
             </div>
             <div class="navbar-collapse collapse navbar-right">
               <ul class="nav navbar-nav">
