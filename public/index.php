@@ -21,13 +21,14 @@
     <!--Custom JS -->
     <script src='javascripts/js/my_script.js'></script>
       
-    <!--stylesheets for owl carousel -->
+    <!--stylesheets for owl carousel 
       
     <link rel="stylesheet" href="owl/owl.carousel.css">
 
     
 
-    <script src="owl/owl.carousel.js"></script>
+    <script src="owl/owl.carousel.js"></script> 
+    -->
       
     <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'> 
   	<script src="authentication/js/modernizr.js"></script> <!-- Modernizr -->
@@ -35,28 +36,28 @@
 				
    </head>
     <body>
-        
+    <div class="one-above-all">    
     <!--navigation bar-->
-    <nav class="navbar navbar-default navbar-fixed-top">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <!-- <a class="logo" href="index.php"><p><span class="logo-underline">ed</span>Hoc</p></a> -->
-              <a class="logo navbar-brand" href="index.php"><p><span class="underline">ed</span>Hoc</p></a>
-            </div>
-            <div id="navbar" class="navbar-collapse collapse navbar-right">
-              <ul class="nav navbar-nav">
-                <!--
-                <li class="active"><a href="#">Home</a></li>
-              -->
-                <li><a href="about.html"><p class="navbar-list">About</p></a></li>
-                <li><a href="Contact-Us.html"><p class="navbar-list">Contact</p></a></li>
-                
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+                <!-- <a class="logo" href="index.php"><p><span class="logo-underline">ed</span>Hoc</p></a> -->
+            <a class="logo navbar-brand" href="index.php"><p><span class="underline">ed</span>Hoc</p></a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse navbar-right">
+            <ul class="nav navbar-nav">
+                  <!--
+                  <li class="active"><a href="#">Home</a></li>
+                -->
+              <li><a href="about.html"><p class="navbar-list">About</p></a></li>
+              <li><a href="Contact-Us.html"><p class="navbar-list">Contact</p></a></li>
+                  
                 <?php  
                     if(isset($_SESSION["student_id"])) {
                 ?>
@@ -73,42 +74,49 @@
                   ?>  
               </ul>
             </div>
-          </div>
-        </nav>
+            </div>
+      </nav>
 
 
         
         
     
-    <div class='jumbotron'>
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12 col-sm-12 col-lg-12" >
-            <h1 class="welcome-text">Discover the best places to learn and collaborate with friends to make learning easier.</h1>
-              </div>
-        </div>
-        </div>
-    </div>
-    <hr>
-    <div class="row col-md-6 col-md-offset-2">
-      <div class="col-lg-6">
-        <div class="input-group">
-          <form action="search_results.php" method = "post">
-              <input type="text" name="search" class="form-control" placeholder="Search by subjects...">
-                  
-              <span class="input-group-btn">
-              <button class="btn btn-default" type="button submit">Go!</button>
-              </span>
-          </form>
-            
-        </div><!-- /input-group -->
+      <div class='jumbotron'>
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-lg-12" >
+              <h1 class="welcome-text">Discover the best places to learn and collaborate with friends to make learning easier.</h1>
+                </div>
+          </div>
+          </div>
       </div>
-    </div>
+      <hr>
+      <div class="row col-md-6 col-md-offset-2">
+        <div class="col-lg-6">
+          <div class="input-group">
+            <form action="search_results.php" method = "post">
+              <input type="text" name="search" class="form-control" placeholder="Search by subjects...">
+                    
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="button submit">Go!</button>
+              </span>
+            </form>
+              
+          </div><!-- /input-group -->
+        </div>
+      </div>
  <br>
  <br>
         <br>
 <hr>
-      <div class="col-md-6 col-md-offset-2">
+<!-- <br>
+<br>
+<br>
+<br>
+<br>
+<br> -->
+
+      <!-- <div class="col-md-6 col-md-offset-2">
 		
                 <div id = "items" class="owl-carousel col-md-8 col-md-offset-2">
                     <div class="item"><a href ="link_results.php?category=math"><img src="images/math.jpg"></a></div>
@@ -118,18 +126,22 @@
                     <div class="item"><a href="link_results.php?category="><img src="images/reso-1.jpeg"></a></div>
                 </div>
 	
-      </div>
-
+      </div> -->
+      <p>hey</p>
+      <p>hey</p>
+      <p>hey</p>
+      <p>hey</p>
+      <p>hey</p>
+      <p>hey</p>
+    </div> <!-- closing one-above-all -->
     <footer>
-	<nav>
-		<ul>
-          <a href="#"><li>Company</li></a>
-          <a href="#"><li>About Us</li></a>
-          <a href="#"><li>Careers</li></a>
-          <a href="#"><li>Contact Us</li></a>
-		</ul>
-	</nav>
-</footer>
+    		<ul>
+              <a href="#"><li>Company</li></a>
+              <a href="#"><li>About Us</li></a>
+              <a href="#"><li>Careers</li></a>
+              <a href="#"><li>Contact Us</li></a>
+    		</ul>
+    </footer>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->

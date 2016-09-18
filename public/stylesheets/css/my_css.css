@@ -1,3 +1,14 @@
+html, body {
+    min-height: 100vh;
+}
+body {
+    flex: display;
+    flex-direction: column;
+    background-color: #fafafa;
+}
+.one-above-all {
+    flex: 1 0 auto;
+}
 .navbar {
     /*border: solid black;*/
 	background-color: transparent;
@@ -70,4 +81,10 @@ a {
 
 .navbar-wrapper .navbar .container .navbar-header .logo{
     left:40px;
+}
+
+footer {
+    background-color: #0d47a1;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
