@@ -15,4 +15,9 @@ $(document).ready(function() {
         'borderColor': '#fff'
     },250);
 
+   // $(window).scroll(function() {
+   //  if($(document).scrollTop() > 10) {
+      
+   //  }
+   // })
  });

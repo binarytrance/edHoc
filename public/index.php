@@ -50,7 +50,7 @@
                 <!-- <a class="logo" href="index.php"><p><span class="logo-underline">ed</span>Hoc</p></a> -->
             <a class="logo navbar-brand" href="index.php"><p><span class="underline">ed</span>Hoc</p></a>
           </div>
-          <div id="navbar" class="navbar-collapse collapse navbar-right">
+          <div class="navbar-collapse collapse navbar-right">
             <ul class="nav navbar-nav">
                   <!--
                   <li class="active"><a href="#">Home</a></li>
